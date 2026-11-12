@@ -1,7 +1,7 @@
 FROM openjdk:8
 
-MAINTAINER Luan luan.m.paschoal@gmail.com
-LABEL Pentaho='Server 9.0 com drivers postgres e oracle'
+LABEL maintainer="Marcos Vasconcellos de Andrade <contact.marcos.dataengineer@gmail.com>"
+LABEL description="Pentaho Server 9.0 CE com drivers JDBC Postgres e Oracle"
 
 # Init ENV
 ENV BISERVER_VERSION 9.0

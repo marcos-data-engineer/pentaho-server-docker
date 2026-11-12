@@ -2,7 +2,7 @@ version: '3'
 services:
   pen-server:
     build: .
-    image: lpaschoal/pentaho_server:9.0
+    image: marcos-data-engineer/pentaho-server:9.0
     container_name: pentaho-server
     networks:
       - rede_pentaho
